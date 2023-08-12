@@ -26,5 +26,10 @@ while eleccion !=5:
     if eleccion == 3:
         print(" ")
         print("Resulatdo: ", number1,"*",number2,"=",number1*number2)
+
+    if eleccion == 4:
+        print(" ")
+        print("Resulatdo: ", number1,"/",number2,"=",number1/number2)
+    
     
     
