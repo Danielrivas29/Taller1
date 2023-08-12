@@ -31,5 +31,5 @@ while eleccion !=5:
         print(" ")
         print("Resulatdo: ", number1,"/",number2,"=",number1/number2)
     
-    
-    
+    if eleccion == 5:
+        print("Saliste")
