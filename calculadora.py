@@ -1,5 +1,5 @@
-number1=int(input("Ingresa un numero"))
-number2=int(input("Ingresa otro numero"))
+number1=int(input("Ingresa un numero: "))
+number2=int(input("Ingresa otro numero: "))
 
 eleccion = 0
 
@@ -22,3 +22,9 @@ while eleccion !=5:
     if eleccion == 2:
         print(" ")
         print("Resulatdo: ", number1,"-",number2,"=",number1-number2)
+    
+    if eleccion == 3:
+        print(" ")
+        print("Resulatdo: ", number1,"*",number2,"=",number1*number2)
+    
+    
