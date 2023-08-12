@@ -3,7 +3,7 @@ number2=int(input("Ingresa otro numero"))
 
 eleccion = 0
 
-while eleccion !=6:
+while eleccion !=5:
     print("""
     Indique la operacion a realizar:
     
@@ -18,3 +18,7 @@ while eleccion !=6:
     if eleccion == 1:
         print(" ")
         print("Resulatdo: ", number1,"+",number2,"=",number1+number2)
+
+    if eleccion == 2:
+        print(" ")
+        print("Resulatdo: ", number1,"-",number2,"=",number1-number2)
